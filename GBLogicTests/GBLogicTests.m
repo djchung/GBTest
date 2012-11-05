@@ -1,14 +1,14 @@
 //
-//  GuildBrowserTests.m
-//  GuildBrowserTests
+//  GBLogicTests.m
+//  GBLogicTests
 //
-//  Created by Charlie Fulton on 8/25/12.
+//  Created by DJ Chung on 11/5/12.
 //  Copyright (c) 2012 Charlie Fulton. All rights reserved.
 //
 
-#import "GuildBrowserTests.h"
+#import "GBLogicTests.h"
 
-@implementation GuildBrowserTests
+@implementation GBLogicTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-   // STFail(@"Unit tests are not implemented yet in GuildBrowserTests");
+    STFail(@"Unit tests are not implemented yet in GBLogicTests");
 }
 
 @end
