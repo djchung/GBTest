@@ -11,7 +11,6 @@
 		738F251616485267003B3C06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		738F251716485267003B3C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		738F251D16485267003B3C06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 738F251B16485267003B3C06 /* InfoPlist.strings */; };
-		738F252016485267003B3C06 /* GBLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F251F16485267003B3C06 /* GBLogicTests.m */; };
 		738F252816485560003B3C06 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F252716485560003B3C06 /* WowUtilsTests.m */; };
 		738F2529164856AE003B3C06 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
 		738F252A164856AE003B3C06 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
@@ -95,8 +94,6 @@
 		738F251416485267003B3C06 /* GBLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		738F251A16485267003B3C06 /* GBLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GBLogicTests-Info.plist"; sourceTree = "<group>"; };
 		738F251C16485267003B3C06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		738F251E16485267003B3C06 /* GBLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBLogicTests.h; sourceTree = "<group>"; };
-		738F251F16485267003B3C06 /* GBLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBLogicTests.m; sourceTree = "<group>"; };
 		738F252116485267003B3C06 /* GBLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		738F252616485560003B3C06 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
 		738F252716485560003B3C06 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
@@ -221,8 +218,6 @@
 		738F251816485267003B3C06 /* GBLogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				738F251E16485267003B3C06 /* GBLogicTests.h */,
-				738F251F16485267003B3C06 /* GBLogicTests.m */,
 				738F2534164858A6003B3C06 /* CharacterTests.h */,
 				738F2535164858A6003B3C06 /* CharacterTests.m */,
 				738F251916485267003B3C06 /* Supporting Files */,
@@ -608,7 +603,6 @@
 				738F252A164856AE003B3C06 /* Guild.m in Sources */,
 				738F252B164856AE003B3C06 /* Item.m in Sources */,
 				738F252C164856AE003B3C06 /* WoWUtils.m in Sources */,
-				738F252016485267003B3C06 /* GBLogicTests.m in Sources */,
 				738F252816485560003B3C06 /* WowUtilsTests.m in Sources */,
 				738F2536164858A6003B3C06 /* CharacterTests.m in Sources */,
 			);
